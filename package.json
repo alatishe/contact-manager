@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.4.0",
+        "laravel-mix": "^6.0.49",
+        "laravel-vite-plugin": "^0.7.2",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vite": "^4.0.0",
+        "vue-loader": "^16.8.3",
+        "vue-template-compiler": "^2.7.14"
+    },
+    "dependencies": {
+        "@vuelidate/core": "^2.0.3",
+        "@vuelidate/validators": "^2.0.3",
+        "datatables.net": "^1.13.5",
+        "datatables.net-dt": "^1.13.5",
+        "datatables.net-vue3": "^2.1.1",
+        "jquery": "^3.7.0",
+        "laravel-mix": "^6.0.49",
+        "tailwindcss": "^3.3.2",
+        "vue": "^3.2.36"
+    }
+}
