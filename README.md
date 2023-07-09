@@ -26,14 +26,14 @@ This is a simple contact manager application built with Laravel and Vue.js. It a
 5. Generate an application key: `php artisan key:generate`
 6. Set up your database in the .env file: `DB_DATABASE=your_database_name`
 7. Run the database migrations: `php artisan migrate`
-8. Start the development server: `php artisan serve`
-9. Visit `http://localhost:8000` in your web browser.
+8. Run the Laravel mix compilation: `npx mix`
+9. Start the development server: `php artisan serve`
+10. Visit `http://localhost:8000` in your web browser.
 
 ## Usage
 
-- Register a new account or log in with your existing account.
-- Once logged in, you can add, view, edit, and delete contacts in the contact manager.
-- Use the search box to find contacts by name.
+- Generate random 500 contacts using http://localhost:8000/generate.
+- Use the search box to find contacts by name, email or phone.
 - Contacts are displayed with pagination for better user experience.
 
 ## Contributing
